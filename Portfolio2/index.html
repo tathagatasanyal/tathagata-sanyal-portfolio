@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tathagata Sanyal Portfolio</title>
+    
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top py-3">
+        <div class="container">
+            <a class="navbar-brand text-glow-cyan fw-bold fs-4" href="#">Portfolio</a>
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="fas fa-bars text-white fs-3"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link px-3" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-vh-100 d-flex align-items-center position-relative pt-5">
+        <div class="container z-1">
+            <div class="row align-items-center flex-column-reverse flex-lg-row text-center text-lg-start mt-5 mt-lg-0">
+                <div class="col-lg-6 reveal">
+                    <h5 class="text-glow-purple mb-3 fw-bold tracking-wide">Hello, Guys  I am</h5>
+                    <h1 class="display-2 fw-bold mb-3 text-white">Tathagata <span class="text-glow-cyan">Sanyal</span></h1>
+                    <h3 class="mb-4" style="color: var(--text-muted);">Associate UI Developer | UI/UX Designer with 2 years of Experiences</h3>
+                    <p class="lead mb-5 fs-6 fs-md-5" style="color: #bbb;">
+                        I design and develop visually stunning, highly responsive web applications using modern technologies and glowing UI designs.
+                    </p>
+                    <div class="d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start gap-3">
+                        <a href="#projects" class="btn btn-glow px-5 py-3 rounded-pill">View My Work</a>
+                        <a href="#contact" class="btn text-white px-5 py-3 rounded-pill" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);">Contact Me</a>
+                    </div>
+                    <div class="mt-5">
+                        <a href="https://github.com/tathagatasanyal" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-5 mb-lg-0 reveal">
+                    <div class="hero-graphic">
+                        <i class="fas fa-laptop-code fa-6x text-glow-purple"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills / About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <!-- About Me Content -->
+            <div class="row align-items-center mb-5 pb-5">
+                <!-- Left Section: Image -->
+                <div class="col-lg-5 mb-5 mb-lg-0 reveal">
+                    <div class="position-relative">
+                        <div class="rounded-4 overflow-hidden" style="border: 2px solid var(--neon-purple); box-shadow: 0 0 30px rgba(188, 19, 254, 0.2);">
+                            <img src="assets/images/me.jpg" alt="About Me" class="img-fluid w-100" style="object-fit: cover; height: 500px; filter: grayscale(20%) contrast(110%);">
+                        </div>
+                        <!-- Decorative element -->
+                        <div class="position-absolute" style="bottom: -20px; right: -20px; z-index: -1; width: 100%; height: 100%; border: 2px solid var(--neon-cyan); border-radius: 1rem;"></div>
+                    </div>
+                </div>
+                <!-- Right Section: Objective, Education, Language -->
+                <div class="col-lg-7 px-lg-5 reveal">
+                    <h2 class="display-5 fw-bold mb-4">About <span class="text-glow-purple">Me</span></h2>
+                    
+                    <h5 class="text-glow-cyan mb-2 fw-bold"><i class="fas fa-bullseye me-2"></i> Objective</h5>
+                    <p class="text-muted mb-4 fs-6">
+                        Passionate and detail-oriented UI Developer and Designer focused on building robust, scalable, and visually compelling web applications. I strive to combine seamless functionality with top-tier user experiences.
+                    </p>
+
+                    <h5 class="text-glow-cyan mb-2 fw-bold"><i class="fas fa-user-graduate me-2"></i> Education</h5>
+                    <ul class="list-unstyled mb-4 text-muted">
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="fas fa-chevron-right mt-1 me-2 text-glow-purple" style="font-size: 0.8rem;"></i> 
+                            <div>
+                                <strong class="text-white">Higher Secondary (HS)</strong><br>
+                                <small class="text-glow-purple">Sagardighi S.N High School, under WBCHSE (2016-2017)</small>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start">
+                            <i class="fas fa-chevron-right mt-1 me-2 text-glow-purple" style="font-size: 0.8rem;"></i> 
+                            <div>
+                                <strong class="text-white">B.Tech. in Computer Science</strong><br>
+                                <small class="text-glow-purple">Bengal Institute of Technology & Management, Shantiniketan (2018-2022), under MAKAUT University</small>
+                            </div>
+                        </li>
+                        
+                    </ul>
+
+                    <h5 class="text-glow-cyan mb-2 fw-bold"><i class="fas fa-language me-2"></i> Language Proficiency</h5>
+                    <div class="mb-5">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="text-muted fw-bold">English</span>
+                            <span class="text-glow-purple fw-bold">90%</span>
+                        </div>
+                        <div class="progress rounded-pill" style="height: 8px; background: rgba(255,255,255,0.1);">
+                            <div class="progress-bar rounded-pill" role="progressbar" style="width: 90%; background: var(--neon-purple); box-shadow: 0 0 10px var(--neon-purple);" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <div class="d-flex justify-content-between mb-1 mt-3">
+                            <span class="text-muted fw-bold">Hindi / Bengali</span>
+                            <span class="text-glow-cyan fw-bold">100%</span>
+                        </div>
+                        <div class="progress rounded-pill" style="height: 8px; background: rgba(255,255,255,0.1);">
+                            <div class="progress-bar rounded-pill" role="progressbar" style="width: 100%; background: var(--neon-cyan); box-shadow: 0 0 10px var(--neon-cyan);" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <a href="#" class="btn btn-glow px-4 py-2 rounded-pill"><i class="fas fa-download me-2"></i> Download Resume</a>
+                </div>
+            </div>
+
+            <!-- Tech Stack Section -->
+            <div class="text-center mb-5 reveal pt-4" style="border-top: 1px solid rgba(255,255,255,0.05);">
+                <h2 class="display-5 fw-bold mt-4">My <span class="text-glow-purple">Tech Stack</span></h2>
+                <div style="height: 3px; width: 60px; background: var(--neon-purple); margin: 20px auto; box-shadow: 0 0 10px var(--neon-purple);"></div>
+            </div>
+            <div class="row d-flex align-items-center justify-content-center g-4 text-center">
+                <!-- Skill Cards -->
+                <div class="col-6 col-md-3 reveal">
+                    <div class="glass-card p-4">
+                        <i class="fab fa-html5 fa-3x mb-3" style="color: #e34f26;"></i>
+                        <h5>HTML5 / CSS3</h5>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 reveal">
+                    <div class="glass-card p-4">
+                        <i class="fab fa-js fa-3x mb-3 text-glow-cyan"></i>
+                        <h5>JavaScript / jQuery</h5>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 reveal">
+                    <div class="glass-card p-4">
+                        <i class="fab fa-bootstrap fa-3x mb-3" style="color: #7952b3;"></i>
+                        <h5>Bootstrap 5</h5>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 reveal">
+                    <div class="glass-card p-4 h-100">
+                        <i class="fab fa-figma fa-3x mb-3 text-glow-purple"></i>
+                        <h5>Figma</h5>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 reveal">
+                    <div class="glass-card p-4 h-100 d-flex flex-column align-items-center justify-content-center">
+                        <i class="fas fa-palette fa-3x mb-3" style="color: #31A8FF; text-shadow: 0 0 10px rgba(49, 168, 255, 0.6);"></i>
+                        <h5>Photoshop</h5>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 reveal">
+                    <div class="glass-card p-4 h-100 d-flex flex-column align-items-center justify-content-center">
+                        <i class="fab fa-wordpress fa-3x mb-3" style="color: #21759b; text-shadow: 0 0 10px rgba(33, 117, 155, 0.6);"></i>
+                        <h5>WordPress</h5>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 reveal">
+                    <div class="glass-card p-4 h-100 d-flex flex-column align-items-center justify-content-center">
+                        <i class="fas fa-robot fa-3x mb-3 text-glow-cyan"></i>
+                        <h5>AI Prompts & Tools</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- Experience Section -->
+    <section id="experience" class="section-padding" style="background: rgba(255,255,255,0.01);">
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <h2 class="display-5 fw-bold">Professional <span class="text-glow-cyan">Experience</span></h2>
+                <div style="height: 3px; width: 60px; background: var(--neon-cyan); margin: 20px auto; box-shadow: 0 0 10px var(--neon-cyan);"></div>
+            </div>
+            
+            <div class="row g-4 justify-content-center">
+                <!-- Experience 1 -->
+                <div class="col-lg-10 reveal">
+                    <div class="glass-card p-4 p-md-5 d-flex flex-column flex-md-row align-items-md-center justify-content-between" style="border-left: 4px solid var(--neon-cyan);">
+                        <div class="mb-3 mb-md-0 pe-md-4">
+                            <h4 class="fw-bold mb-1">Senior UI/UX Developer</h4>
+                            <h6 class="text-glow-purple mb-3">Sarada Foundation</h6>
+                            <p class="text-muted mb-0">Lead end-to-end UI/UX design for 5+ enterprise web applications, reducing user task completion time by 30%. Mentor junior designers and frontend developers, establishing reusable design systems and component libraries in Figma. Integrate Generative AI tools (Figma Make, Midjourney, ChatGPT) to accelerate prototyping and automate asset generation. Collaborate with cross-functional teams to deliver accessible, responsive interfaces using CSS and JavaScript. Conduct user research, A/B testing, and usability audits to continuously improve design quality.</p>
+                        </div>
+                        <div class="text-md-end mt-3 mt-md-0" style="min-width: 160px;">
+                            <span class="badge rounded-pill px-4 py-2 fs-6" style="background: rgba(0, 243, 255, 0.1); color: var(--neon-cyan); border: 1px solid var(--neon-cyan);">2025 - Present</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="col-lg-10 reveal">
+                    <div class="glass-card p-4 p-md-5 d-flex flex-column flex-md-row align-items-md-center justify-content-between" style="border-left: 4px solid var(--neon-purple);">
+                        <div class="mb-3 mb-md-0 pe-md-4">
+                            <h4 class="fw-bold mb-1">Web Developer</h4>
+                            <h6 class="text-glow-cyan mb-3">CDLS Technologies Pvt Ltd</h6>
+                            <p class="text-muted mb-0">Developed and deployed 10+ responsive websites for real estate, medical, and legal domains using HTML5, CSS3, Bootstrap, and JavaScript. Collaborated with designers to translate Figma and Adobe XD prototypes into fully functional, cross-browser compatible web pages.Implemented mobile-first responsive designs and ensured 95+ Lighthouse performance scores. Integrated Generative AI tools (ChatGPT, Midjourney, Figma Make) to accelerate UI concept generation, content drafting, and code snippet creation.</p>
+                        </div>
+                        <div class="text-md-end mt-3 mt-md-0" style="min-width: 160px;">
+                            <span class="badge rounded-pill px-4 py-2 fs-6" style="background: rgba(188, 19, 254, 0.1); color: var(--neon-purple); border: 1px solid var(--neon-purple);">2024 - 2025</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Experience 3 -->
+                <div class="col-lg-10 reveal">
+                    <div class="glass-card p-4 p-md-5 d-flex flex-column flex-md-row align-items-md-center justify-content-between" style="border-left: 4px solid var(--neon-cyan);">
+                        <div class="mb-3 mb-md-0 pe-md-4">
+                            <h4 class="fw-bold mb-1">Web Designer Intern</h4>
+                            <h6 class="text-glow-purple mb-3">Internship at Webskiters Academy, Durgapur</h6>
+                            <p class="text-muted mb-0">I had the privilege to do my internship from Webskiters Academy, where I honed my skills in Web development and design.</p>
+                        </div>
+                        <div class="text-md-end mt-3 mt-md-0" style="min-width: 160px;">
+                            <span class="badge rounded-pill px-4 py-2 fs-6" style="background: rgba(0, 243, 255, 0.1); color: var(--neon-cyan); border: 1px solid var(--neon-cyan);">2023 - 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding" style="background: rgba(255,255,255,0.01);">
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <h2 class="display-5 fw-bold">Featured <span class="text-glow-cyan">Projects</span></h2>
+                <div style="height: 3px; width: 60px; background: var(--neon-cyan); margin: 20px auto; box-shadow: 0 0 10px var(--neon-cyan);"></div>
+            </div>
+            <div class="row align-items-stretch justify-content-center g-4">
+
+                <!-- Project 1 -->
+                <div class="col-md-4 reveal">
+                    <div class="glass-card h-100 overflow-hidden d-flex flex-column">
+                        <div style="border-bottom: 1px solid rgba(0,243,255,0.3);">
+                            <img src="assets/images/projects/lifeseed.png" alt="Lifeseed – Fertility Preservation Center" class="img-fluid w-100" style="object-fit: cover; filter: brightness(0.8) contrast(1.2);">
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h4 class="fw-bold">Lifeseed – Fertility Preservation Center</h4>
+                            <p class="text-muted fs-6 mb-4">Designed a complete website frontend from Figma to HTML within 1 week.</p>
+                            <a href="https://lifeseed.in/" target="_blank" class="text-glow-cyan text-decoration-none fw-bold mt-auto">View Live <i class="fas fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->  
+                <div class="col-md-4 reveal">
+                    <div class="glass-card h-100 overflow-hidden d-flex flex-column">
+                        <div style="border-bottom: 1px solid rgba(188,19,254,0.3);">
+                            <img src="assets/images/projects/propertystreet.png" alt="Property Street (Australian Real Estate)" class="img-fluid w-100" style="object-fit: cover; filter: brightness(0.8) contrast(1.2);">
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h4 class="fw-bold">Property Street (Australian Real Estate)</h4>
+                            <p class="text-muted fs-6 mb-4">Developed a multi-page responsive site within 10 days using Bootstrap 5</p>
+                            <a href="https://propertystreet.net.au/" target="_blank" class="text-glow-cyan text-decoration-none fw-bold mt-auto">View Live <i class="fas fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="col-md-4 reveal">
+                    <div class="glass-card h-100 overflow-hidden d-flex flex-column">
+                        <div style="border-bottom: 1px solid rgba(0,243,255,0.3);">
+                            <img src="assets/images/projects/Vproperty.png" alt="V Properry Consulting (Australian Real Estate)" class="img-fluid w-100" style="object-fit: cover; filter: brightness(0.8) contrast(1.2);">
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h4 class="fw-bold">V Properry Consulting (Australian Real Estate)</h4>
+                            <p class="text-muted fs-6 mb-4">Converted Adobe XD designs into a 15+ page responsive website. Implemented property listing grids, contact forms, and mobile navigation.</p>
+                            <a href="https://vpropertyconsulting.com.au/" target="_blank" class="text-glow-cyan text-decoration-none fw-bold mt-auto">View Live <i class="fas fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="col-md-4 reveal">
+                    <div class="glass-card h-100 overflow-hidden d-flex flex-column">
+                        <div style="border-bottom: 1px solid rgba(0,243,255,0.3);">
+                            <img src="assets/images/projects/portland.jpg" alt="Accident Attorney – Portland Injury Firm" class="img-fluid w-100" style="object-fit: cover; filter: brightness(0.8) contrast(1.2);">
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h4 class="fw-bold">Accident Attorney – Portland Injury Firm</h4>
+                            <p class="text-muted fs-6 mb-4">Designed a high-conversion Law firm website with 20+ pages</p>
+                            <a href="https://portlandinjuryfirm.com/" target="_blank" class="text-glow-cyan text-decoration-none fw-bold mt-auto">View Live <i class="fas fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="col-md-4 reveal">
+                    <div class="glass-card h-100 overflow-hidden d-flex flex-column">
+                        <div style="border-bottom: 1px solid rgba(0,243,255,0.3);">
+                            <img src="assets/images/projects/dashboardUIUX.png" alt="SaaS Dashboard" class="img-fluid w-100" style="object-fit: cover; filter: brightness(0.8) contrast(1.2);">
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h4 class="fw-bold">SaaS Dashboard</h4>
+                            <p class="text-muted fs-6 mb-4">Designed a comprehensive SaaS dashboard using Figma with deep focus on UX analytics.</p>
+                            <a href="https://portlandinjuryfirm.com/" target="_blank" class="text-glow-cyan text-decoration-none fw-bold mt-auto">View Live <i class="fas fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    <!-- Graphic Designs Section -->
+    <section id="graphic-designs" class="section-padding" style="background: rgba(255,255,255,0.01);">
+        <div class="container">
+            <div class="row align-items-end mb-5 reveal">
+                <div class="col-md-10 text-center text-md-start mb-4 mb-md-0">
+                    <h2 class="display-5 fw-bold">Graphic <span class="text-glow-purple">Designs</span></h2>
+                    <div style="height: 3px; width: 60px; background: var(--neon-purple); box-shadow: 0 0 10px var(--neon-purple);" class="mx-auto mx-md-0 mt-3"></div>
+                </div>
+                <div class="col-md-2 text-center text-md-end">
+                    <button class="btn btn-glow rounded-circle slick-prev-custom mx-1" style="width: 45px; height: 45px; padding: 0 !important; display: inline-flex; align-items: center; justify-content: center;"><i class="fas fa-chevron-left"></i></button>
+                    <button class="btn btn-glow rounded-circle slick-next-custom mx-1" style="width: 45px; height: 45px; padding: 0 !important; display: inline-flex; align-items: center; justify-content: center;"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+            
+            <div class="graphic-slider reveal">
+                <!-- Slide 1 -->
+                <div class="px-3 py-4">
+                    <div class="glass-card overflow-hidden h-100 d-flex flex-column">
+                        <img src="assets/images/designs/App Development.jpg" alt="Design 1" class="img-fluid w-100 project-img" style="object-fit: cover; filter: brightness(0.9);">
+                        <div class="p-4 text-center flex-grow-1 d-flex align-items-center justify-content-center">
+                            <h5 class="fw-bold text-glow-cyan mb-0">Poster 1</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="px-3 py-4">
+                    <div class="glass-card overflow-hidden h-100 d-flex flex-column">
+                        <img src="assets/images/designs/DBMS poster.jpg" alt="Design 4" class="img-fluid w-100 project-img" style="object-fit: cover; filter: brightness(0.9);">
+                        <div class="p-4 text-center flex-grow-1 d-flex align-items-center justify-content-center">
+                            <h5 class="fw-bold text-glow-cyan mb-0">Poster 2</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="px-3 py-4">
+                    <div class="glass-card overflow-hidden h-100 d-flex flex-column">
+                        <img src="assets/images/designs/Template-Website.jpg" alt="Design 4" class="img-fluid w-100 project-img" style="object-fit: cover; filter: brightness(0.9);">
+                        <div class="p-4 text-center flex-grow-1 d-flex align-items-center justify-content-center">
+                            <h5 class="fw-bold text-glow-cyan mb-0">Poster 3</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 4 -->
+                <div class="px-3 py-4">
+                    <div class="glass-card overflow-hidden h-100 d-flex flex-column">
+                        <img src="assets/images/designs/baking-packaging-front.jpg" alt="Design 2" class="img-fluid w-100 project-img" style="object-fit: cover; filter: brightness(0.9);">
+                        <div class="p-4 text-center flex-grow-1 d-flex align-items-center justify-content-center">
+                            <h5 class="fw-bold text-glow-cyan mb-0">Product Design 1</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 5 -->
+                <div class="px-3 py-4">
+                    <div class="glass-card overflow-hidden h-100 d-flex flex-column">
+                        <img src="assets/images/designs/Bread-Improver-package-front.jpg" alt="Design 3" class="img-fluid w-100 project-img" style="object-fit: cover; filter: brightness(0.9);">
+                        <div class="p-4 text-center flex-grow-1 d-flex align-items-center justify-content-center">
+                            <h5 class="fw-bold text-glow-cyan mb-0">Product Design 2</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 6 -->
+                <div class="px-3 py-4">
+                    <div class="glass-card overflow-hidden h-100 d-flex flex-column">
+                        <img src="assets/images/designs/Cornflour-package-front.jpg" alt="Design 4" class="img-fluid w-100 project-img" style="object-fit: cover; filter: brightness(0.9);">
+                        <div class="p-4 text-center flex-grow-1 d-flex align-items-center justify-content-center">
+                            <h5 class="fw-bold text-glow-cyan mb-0">Product Design 3</h5>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Slide 7 -->
+                <div class="px-3 py-4">
+                    <div class="glass-card overflow-hidden h-100 d-flex flex-column">
+                        <img src="assets/images/designs/Custard-Powder-package-back.jpg" alt="Design 4" class="img-fluid w-100 project-img" style="object-fit: cover; filter: brightness(0.9);">
+                        <div class="p-4 text-center flex-grow-1 d-flex align-items-center justify-content-center">
+                            <h5 class="fw-bold text-glow-cyan mb-0">Product Design 4</h5>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 8 -->
+                <div class="px-3 py-4">
+                    <div class="glass-card overflow-hidden h-100 d-flex flex-column">
+                        <img src="assets/images/designs/Kill's-Kitchen.jpg" alt="Design 4" class="img-fluid w-100 project-img" style="object-fit: cover; filter: brightness(0.9);">
+                        <div class="p-4 text-center flex-grow-1 d-flex align-items-center justify-content-center">
+                            <h5 class="fw-bold text-glow-cyan mb-0">Logo Design 1</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 9 -->
+                <div class="px-3 py-4">
+                    <div class="glass-card overflow-hidden h-100 d-flex flex-column">
+                        <img src="assets/images/designs/Ezoc-Logistic-Company.jpg" alt="Design 4" class="img-fluid w-100 project-img" style="object-fit: cover; filter: brightness(0.9);">
+                        <div class="p-4 text-center flex-grow-1 d-flex align-items-center justify-content-center">
+                            <h5 class="fw-bold text-glow-cyan mb-0">Logo Design 2</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 10 -->
+                <div class="px-3 py-4">
+                    <div class="glass-card overflow-hidden h-100 d-flex flex-column">
+                        <img src="assets/images/designs/Sports-News-logo.png" alt="Design 4" class="img-fluid w-100 project-img" style="object-fit: cover; filter: brightness(0.9);">
+                        <div class="p-4 text-center flex-grow-1 d-flex align-items-center justify-content-center">
+                            <h5 class="fw-bold text-glow-cyan mb-0">Logo Design 3</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="row justify-content-center reveal">
+                <div class="col-lg-8">
+                    <div class="glass-card p-4 p-md-5">
+                        <div class="text-center mb-4">
+                            <h2 class="fw-bold mb-3">Initiate <span class="text-glow-purple">Connection</span></h2>
+                            <p class="text-muted">Have a project in mind? Send me a message and let's build something awesome together. Or, Call me at +91 8617828900</p>
+                        </div>
+                        <form id="contactForm" action="https://formsubmit.co/ajax/itathagatasanyal01@gmail.com" method="POST">
+                            
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="#">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <input type="text" name="name" class="form-control rounded-pill shadow-none" placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" name="email" class="form-control rounded-pill shadow-none" placeholder="Your Email" required>
+                                </div>
+                                <div class="col-12">
+                                    <input type="text" name="_subject" class="form-control rounded-pill shadow-none" placeholder="Subject">
+                                </div>
+                                <div class="col-12">
+                                    <textarea name="message" class="form-control rounded-4 shadow-none" rows="5" placeholder="Your Message..." required></textarea>
+                                </div>
+                                <div class="col-12 text-center mt-4">
+                                    <button type="submit" class="btn btn-glow px-5 py-3 rounded-pill w-100">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center" style="background: rgba(10,10,15,0.8); border-top: 1px solid rgba(255,255,255,0.05);">
+        <div class="container">
+            <p class="mb-0 text-muted">Designed by <span class="text-glow-purple"> Tathagata Sanyal </span>© 2026 Alright Reserved</p>
+        </div>
+    </footer>
+    <!-- Toast Notification -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3" style="z-index: 1055;">
+        <div id="formToast" class="toast align-items-center text-white border-0 glass-card" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body fw-bold" id="toastMessage">
+                    <!-- Message goes here -->
+                </div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <a href="#" id="scrollTopBtn" class="btn btn-glow rounded-circle position-fixed bottom-0 end-0 m-4 d-flex align-items-center justify-content-center" style="width: 50px; height: 50px; z-index: 1000; text-decoration: none;">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- jQuery and Slick Slider JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS for Scroll Animations -->
+    <script src="assets/js/app.js"></script>
+
+</body>
+</html>
