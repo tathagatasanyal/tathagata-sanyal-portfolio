@@ -98,7 +98,7 @@
 
                     const formData = new FormData(contactForm);
 
-                    fetch('https://formsubmit.co/ajax/itathagatasanyal01@gmail.com', {
+                    fetch('https://api.web3forms.com/submit', {
                         method: 'POST',
                         headers: {
                             'Accept': 'application/json'
